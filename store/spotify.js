@@ -2,6 +2,7 @@ export const state = () => ({
     access_token: null,
     user_name: null,
     user_profile: null,
+    user_avatar: null,
     artists_list : []
 })
 
@@ -33,5 +34,6 @@ export const mutations = {
     addUser(state, value){
         state.user_profile = value.id;
         state.user_name = value.display_name;
+        state.user_avatar = value.images[0].url;
     }
 }

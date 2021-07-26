@@ -1,0 +1,63 @@
+
+// --------------------------------------------------
+// Color scheme by Donaël Walter 
+// --------------------------------------------------
+// --------------------------------------------------
+// Colors
+// --------------------------------------------------
+$colors: (
+    primary: #FFC700,
+    success: #4caf50,
+    info: #2196f3,
+    warning: #ff9800,
+    danger: #f44336,
+    light: #f5f5f5,
+    dark: #212121,
+    white-text: #ffffff,
+    black-text: #000000
+);
+//
+// --------------------------------------------------
+// Typography
+// --------------------------------------------------
+$typography-desktop: (
+    font-size-title: 1.5rem,
+    font-size-subtitle: 1rem,
+    font-size-text: 1rem,
+    font-size-decoration: 66px
+);
+//
+$typography-mobile: (
+    font-size-title: 1.5rem,
+    font-size-subtitle: 1rem,
+    font-size-text: 1rem,
+    font-size-decoration: 66px
+);
+
+$typography-font-family: (
+    font-family-title: 'Ignazio',
+    font-family-subtitle: 'Ignazio',
+    font-family-text: 'Ignazio',
+    font-family-decoration: 'Mazius'
+);
+
+//
+// --------------------------------------------------
+// Layout
+// --------------------------------------------------
+$layout-padding: (
+    desktop: 20px,
+    mobile: 20px
+);
+//
+// --------------------------------------------------
+// Colors
+// --------------------------------------------------
+$colors-background: (
+    layout: #1F1B1B,
+    card:#353535,
+    card-active: map-get($colors,"primary"),
+    card-hover: map-get($colors,"primary"),
+    card-active-hover: map-get($colors,"primary"),
+    button: map-get($colors,"primary")
+);
